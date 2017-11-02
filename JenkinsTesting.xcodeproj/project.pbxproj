@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60A2D711FAB2FB500E8DA9F /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60A2D701FAB2FA500E8DA9F /* MBProgressHUD.framework */; };
+		A60A2D721FAB2FB500E8DA9F /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A60A2D701FAB2FA500E8DA9F /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A65C519B1F960CF60055C5B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65C519A1F960CF60055C5B9 /* AppDelegate.swift */; };
 		A65C519D1F960CF60055C5B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65C519C1F960CF60055C5B9 /* ViewController.swift */; };
 		A65C51A01F960CF60055C5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65C519E1F960CF60055C5B9 /* Main.storyboard */; };
@@ -34,7 +36,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A60A2D731FAB2FB500E8DA9F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A60A2D721FAB2FB500E8DA9F /* MBProgressHUD.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A60A2D701FAB2FA500E8DA9F /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = SOURCE_ROOT; };
 		A65C51971F960CF60055C5B9 /* JenkinsTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65C519A1F960CF60055C5B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A65C519C1F960CF60055C5B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A60A2D711FAB2FB500E8DA9F /* MBProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +94,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A60A2D6F1FAB2F8C00E8DA9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A60A2D701FAB2FA500E8DA9F /* MBProgressHUD.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 		A65C518E1F960CF60055C5B9 = {
 			isa = PBXGroup;
 			children = (
 				A65C51991F960CF60055C5B9 /* JenkinsTesting */,
 				A65C51B11F960CF60055C5B9 /* JenkinsTestingTests */,
 				A65C51BC1F960CF60055C5B9 /* JenkinsTestingUITests */,
+				A60A2D6F1FAB2F8C00E8DA9F /* Frameworks */,
 				A65C51981F960CF60055C5B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,6 +165,7 @@
 				A65C51931F960CF60055C5B9 /* Sources */,
 				A65C51941F960CF60055C5B9 /* Frameworks */,
 				A65C51951F960CF60055C5B9 /* Resources */,
+				A60A2D731FAB2FB500E8DA9F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -433,6 +461,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TN3QZKXQS6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = JenkinsTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jenkinsTest.JenkinsTesting;
@@ -451,6 +483,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TN3QZKXQS6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = JenkinsTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jenkinsTest.JenkinsTesting;
