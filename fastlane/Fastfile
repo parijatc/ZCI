@@ -28,11 +28,11 @@ platform :ios do
   desc "Submit a new Beta Build to Apple TestFlight"
   desc "This will also make sure the profile is up to date"
   lane :beta do
-    cert
-    sigh	
+    #cert
+    #sigh	
     gym
     #testflight
-    pilot(skip_submission:true,distribute_external:false,skip_waiting_for_build_processing:true)
+    #pilot(skip_submission:true,distribute_external:false,skip_waiting_for_build_processing:true)
     #pilot(distribute_external:false)
 
     # sh "your_script.sh"
