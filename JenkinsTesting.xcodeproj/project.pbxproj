@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A60A2D711FAB2FB500E8DA9F /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60A2D701FAB2FA500E8DA9F /* MBProgressHUD.framework */; };
 		A60A2D721FAB2FB500E8DA9F /* MBProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A60A2D701FAB2FA500E8DA9F /* MBProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6309F372029B99F009B3258 /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = A6309F362029B99F009B3258 /* Jenkinsfile */; };
 		A65C519B1F960CF60055C5B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65C519A1F960CF60055C5B9 /* AppDelegate.swift */; };
 		A65C519D1F960CF60055C5B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65C519C1F960CF60055C5B9 /* ViewController.swift */; };
 		A65C51A01F960CF60055C5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65C519E1F960CF60055C5B9 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		A60A2D701FAB2FA500E8DA9F /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = SOURCE_ROOT; };
+		A6309F362029B99F009B3258 /* Jenkinsfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 		A65C51971F960CF60055C5B9 /* JenkinsTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65C519A1F960CF60055C5B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A65C519C1F960CF60055C5B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		A65C518E1F960CF60055C5B9 = {
 			isa = PBXGroup;
 			children = (
+				A6309F362029B99F009B3258 /* Jenkinsfile */,
 				A65C51991F960CF60055C5B9 /* JenkinsTesting */,
 				A65C51B11F960CF60055C5B9 /* JenkinsTestingTests */,
 				A65C51BC1F960CF60055C5B9 /* JenkinsTestingUITests */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A65C51A81F960CF60055C5B9 /* LaunchScreen.storyboard in Resources */,
+				A6309F372029B99F009B3258 /* Jenkinsfile in Resources */,
 				A65C51A51F960CF60055C5B9 /* Assets.xcassets in Resources */,
 				A65C51A01F960CF60055C5B9 /* Main.storyboard in Resources */,
 			);
