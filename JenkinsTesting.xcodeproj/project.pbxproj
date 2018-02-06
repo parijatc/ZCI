@@ -17,6 +17,9 @@
 		A65C51A81F960CF60055C5B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65C51A61F960CF60055C5B9 /* LaunchScreen.storyboard */; };
 		A65C51B31F960CF60055C5B9 /* JenkinsTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65C51B21F960CF60055C5B9 /* JenkinsTestingTests.swift */; };
 		A65C51BE1F960CF60055C5B9 /* JenkinsTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65C51BD1F960CF60055C5B9 /* JenkinsTestingUITests.swift */; };
+		A67E4B922029B1430057ABD6 /* Jenkinsfile.sh in Resources */ = {isa = PBXBuildFile; fileRef = A67E4B912029B1430057ABD6 /* Jenkinsfile.sh */; };
+		A67E4B932029B1430057ABD6 /* Jenkinsfile.sh in Resources */ = {isa = PBXBuildFile; fileRef = A67E4B912029B1430057ABD6 /* Jenkinsfile.sh */; };
+		A67E4B942029B1430057ABD6 /* Jenkinsfile.sh in Resources */ = {isa = PBXBuildFile; fileRef = A67E4B912029B1430057ABD6 /* Jenkinsfile.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,7 @@
 		A65C51B91F960CF60055C5B9 /* JenkinsTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65C51BD1F960CF60055C5B9 /* JenkinsTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsTestingUITests.swift; sourceTree = "<group>"; };
 		A65C51BF1F960CF60055C5B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67E4B912029B1430057ABD6 /* Jenkinsfile.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Jenkinsfile.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		A65C518E1F960CF60055C5B9 = {
 			isa = PBXGroup;
 			children = (
+				A67E4B912029B1430057ABD6 /* Jenkinsfile.sh */,
 				A65C51991F960CF60055C5B9 /* JenkinsTesting */,
 				A65C51B11F960CF60055C5B9 /* JenkinsTestingTests */,
 				A65C51BC1F960CF60055C5B9 /* JenkinsTestingUITests */,
@@ -265,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A65C51A81F960CF60055C5B9 /* LaunchScreen.storyboard in Resources */,
+				A67E4B922029B1430057ABD6 /* Jenkinsfile.sh in Resources */,
 				A65C51A51F960CF60055C5B9 /* Assets.xcassets in Resources */,
 				A65C51A01F960CF60055C5B9 /* Main.storyboard in Resources */,
 			);
@@ -274,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A67E4B932029B1430057ABD6 /* Jenkinsfile.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A67E4B942029B1430057ABD6 /* Jenkinsfile.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
