@@ -358,7 +358,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: parijat chandra (FA9KTP7P2G)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: parijat chandra (FA9KTP7P2G)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = CC6BLZSMU8;
+				DEVELOPMENT_TEAM = UAWU67869T;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -382,7 +382,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: parijat chandra (FA9KTP7P2G)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: parijat chandra (FA9KTP7P2G)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = CC6BLZSMU8;
+				DEVELOPMENT_TEAM = UAWU67869T;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
